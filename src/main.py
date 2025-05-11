@@ -4,7 +4,7 @@ from transformers import pipeline
 
 @st.cache_resource
 def load_pipeline():
-    return pipeline("summarization")
+    return pipeline("summarization", model="facebook/bart-large-cnn")
 
 summarizer = load_pipeline()
 
