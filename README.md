@@ -1,3 +1,13 @@
+---
+title: Social Summarizer
+emoji: 🐨
+colorFrom: red
+colorTo: purple
+sdk: docker
+pinned: false
+license: apache-2.0
+---
+
 # Reddit Summarizer
 
 This application fetches the latest posts from a specified subreddit and provides summaries using Hugging Face's transformers library.
